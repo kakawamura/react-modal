@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kakawamura/react-modal"
+    "url": "git+https://github.com/kakawamura/react-modal.git"
   },
-  "keywords": ["react", "modal"],
+  "keywords": [
+    "react",
+    "modal"
+  ],
   "license": "MIT",
   "author": "Kazushi Kawamura",
   "main": "src/index.js",
@@ -23,5 +26,16 @@
     "mobx-react": "^4.4.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
+  },
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/kakawamura/react-modal/issues"
+  },
+  "homepage": "https://github.com/kakawamura/react-modal#readme",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
