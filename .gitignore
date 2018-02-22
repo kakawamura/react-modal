@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .cache/
+lib/
 .tern-port
 .DS_Store
 yarn-error.log
