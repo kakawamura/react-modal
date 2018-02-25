@@ -24,8 +24,6 @@ const icon = css({
   },
 });
 
-@inject("store")
-@observer
 class SimpleModal extends React.Component {
   close = () => {
     const { store } = this.props;
@@ -50,4 +48,4 @@ class SimpleModal extends React.Component {
   }
 }
 
-export default SimpleModal;
+export default inject("store")(observer(SimpleModal));

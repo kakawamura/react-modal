@@ -1,14 +1,11 @@
 {
   "name": "@zushipon/react-modal",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kakawamura/react-modal.git"
   },
-  "keywords": [
-    "react",
-    "modal"
-  ],
+  "keywords": ["react", "modal"],
   "license": "MIT",
   "author": "Kazushi Kawamura",
   "main": "lib/@zushipon-react-modal.js",
@@ -18,7 +15,7 @@
     "babel-preset-react-app": "^3.1.1",
     "glamor": "^2.20.40",
     "mobx-react-devtools": "^4.2.15",
-    "parcel-bundler": "^1.6.1",
+    "parcel-bundler": "^1.6.2",
     "prettier": "^1.10.2"
   },
   "dependencies": {
@@ -33,6 +30,8 @@
   },
   "homepage": "https://github.com/kakawamura/react-modal#readme",
   "scripts": {
+    "start": "parcel src/index.js",
+    "development": "parcel examples/index.html",
     "build": "parcel build src/index.js -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   }

@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import { withModal, Modal, openModal, closeModal, SimpleModal } from "../src/";
+import { withModal, Modal, openModal, closeModal, SimpleModal } from "../src";
 
 const App = () => (
   <div>
